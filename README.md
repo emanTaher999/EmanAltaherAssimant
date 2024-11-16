@@ -10,7 +10,24 @@ Identity tables are created in it.
  Instructions on how to run and test the application:
  1. run code to open swagger.
  2. test on postman 
- 3. to test Registar endpoit need to pass ()
+ 3. to test Registar endpoit need to pass (firstName- lastName-email-username-password)
  4. go to jwt.io site to insure token is right.
  5. to test Login endpoint need to pass (email ,password)
 
+Url: https://localhost:44322/api/User/Register 
+Method Type : Post 
+Request: 
+{ 
+ "firstName": "Eman", 
+  "lastName": "Altaher", 
+  "userName": "EmanTaher", 
+  "email": "eman999awad@gmail.com", 
+  "password": "Sust999Eman#" 
+} 
+
+Url: https://localhost:44322/api/User/Login 
+Method Type : Post 
+Request: 
+{ 
+    "email": "eman999awad@gmail.com", 
+  "password": "Sust999Eman#" }
